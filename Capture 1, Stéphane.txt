@@ -1,0 +1,37 @@
+C:\Users\Stéphane>curl http://capgchamb12.goffinet.net:8003
+{
+  name: "capgchamb12.goffinet.net"
+  ipv4: "163.172.134.193"
+}
+
+
+
+1) Serveur GNS3 : capgchamb12.goffinet.net
+
+requête hhtp
+curl http://capgchamb12.goofinet.net:8003
+
+réponse : adresse IPv4 publique du serveur
+nom de domaine du serveur
+
+
+2) Traffic 
+Capture1.pcapng
+
+3) Port source du client : 52447
+(Port de destination : 8003)
+
+4) N°Paquet qui contient la commande de la couche application : 2596
+
+5) Paquet qui commence la session : 2476
+   Paquet qui termine la session : 2710 (pas certain, je n'ai pas vu les FIN dans la masse)
+
+
+
+Capture 2 ...
+
+C:\Users\Stéphane>dig @ns1.google.com -t TXT o-o.myaddr.l.google.com +short -4
+'dig' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+C:\Users\Stéphane>
